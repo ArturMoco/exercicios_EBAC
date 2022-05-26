@@ -1,0 +1,123 @@
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-style: Bold;
+        color: rgb(8, 8, 8);
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Bras%C3%A3o_do_Munic%C3%ADpio_de_Monsenhor_Tabosa.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #ffffff;
+    }
+
+    .menu{
+        list-style:none;
+        background-color: white;
+        border:3px solid #15ff00;
+        float:left;
+    }
+
+     .menu li{
+        position:relative;
+        float:left;
+        border-right:1px solid #fefbfb opacity 0.5;
+    }
+
+    .menu li a{color:rgba(17, 0, 255, 0.829); text-decoration:none; padding:5px 10px; display:block;}
+
+    .menu li a:hover{
+    background:rgb(110, 108, 108) opacity 0.1;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px rgb(255, 255, 255);
+    }
+
+    .menu li  ul{
+        position:absolute;
+        top:25px;
+        left:0;
+        background-color:rgb(255, 255, 255) opacity: 0.5;
+        display:none
+    }
+
+    .menu li:hover ul, .menu li.over ul{display:block;}0
+    .menu li ul li{
+        border:3px solid #c0c0c0;
+        display:block;
+        width:150px;
+    }
+
+    .resumo{
+        color: #04640c;
+        font-size: 50px;
+        background-color: white;
+    }
+
+    .img2{
+        width: 800px;
+    }
+
+    .texto{
+        color: #000000;
+        background-color: white;
+        font-size: 20px;
+    }
+
+
+    a:link, a:visited{
+        color: #0400ff;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+
+    #wrap{
+        width: 800px;
+        margin: auto;
+        padding: 10px 20px;
+    }
+
+    #form{
+       color: #000000; 
+    }
+    header nav ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    header nav ul li{
+        display: inline-block;
+        margin-right: 10px;    
+    }
+    header nav ul li a{
+
+        font-size: 18px;
+    }
+
+    #content{
+        float: left;
+        width: 660px;
+    }
+
+    footer{
+        margin-top: 25%;
+        background: #ffa53d;
+        clear: both;
+    }
+    label,input[type=submit], input[type=text], textarea{
+        display: block;
+    }
+
+    input[type="submit"]{
+        background: #c2bebe;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: 0;
+
+    }
+    input[type="submit"]:hover{
+        background: rgb(71, 255, 15);
+    }
